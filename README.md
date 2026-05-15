@@ -61,10 +61,13 @@ Classification: Optimized for 3-class classification (High, Medium, Low).
 
 ## 📁 Project Structure
 Hajj_Umrah_Crowd_Detection/
-├── Hajj_Umrah_Crowd_Dataset/       # Dataset folder
-│   ├── high_crowd/                 # Images with high density
-│   ├── medium_crowd/               # Images with medium density
-│   └── low_crowd/                  # Images with low density
-├── imageproject.ipynb              # Main Jupyter Notebook
+│  
+├── imageproject.ipynb              # Main Jupyter Notebook 
 ├── hajj_crowd_cnn_model.h5         # Trained CNN Model file
+│  
+├── Hajj_Umrah_Crowd_Dataset/       # Dataset folder
+│   └──  high_crowd/                 # Images with high density 
+│   └──  medium_crowd/               # Images with MEDIUM density 
+│   └──  low_crowd/               # Images with low density 
 └── README.md                       # Project documentation
+
